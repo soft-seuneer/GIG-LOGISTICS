@@ -1,0 +1,266 @@
+*{
+    overflow-x: hidden;  
+}
+
+body{
+    box-sizing: border-box;
+}
+.navbar {
+    position: fixed;
+   
+}
+
+.container-fluid .navbar-brand{
+margin-left: 5%;
+margin-top: 1%;
+margin-bottom: 1%;
+}
+.container-fluid a img {
+    width: 80px;
+}
+.collapse .navbar-nav{
+   margin-left: 15%;
+}
+
+li .nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li .nav-link:hover{
+    color: red;
+}
+
+.collapse .btn{
+    background-color: #D5343A;
+    color: white;
+    border-style: none;
+    padding: 1% 1%;
+    margin-left: 35%;
+    font-size: 16px;
+}
+body .navbar-dark-below{
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+    background-color: black;
+   
+}
+.navbar-dark-below img{
+    margin-left: 27%;
+    width: 150px;
+}
+.navbar-dark-below button{
+    margin-top: 1%;
+    margin-right: 18%;
+    margin-left: 1%;
+    background-color: #D5343A;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    font-weight: bold;
+    border-style: none;
+}
+.navbar-dark-below p{
+    color: white;
+    font-weight: bold;
+    margin-top: 1%;
+    font-size: 18px;
+}
+.input-track form{
+    margin-left: 35%;
+    margin-right: 30%;
+    margin-top: 20%;
+    background-color: white;
+    padding: 1% 1%;
+
+}
+.input-track{
+    background-image: url('./sunset-4913611_1920.jpg');
+    padding-bottom: 15%;
+
+}
+.input-track form .btn-search{
+    border-radius: 5px;
+    width: 150px;
+    background-color: #D5343A;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+}
+.input-track form .form-control {
+    border-color: white;
+}
+
+.explanation p{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1%;
+    font-size: 18px;
+}
+
+.explanation p {
+    background-color: black;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+body .seamless{
+    background-color: #F3F4F5;
+}
+
+.seamless {
+    text-align: center;
+}
+.seamless h2{
+    color: black;
+    font-size: x-large;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 7%;
+    margin-bottom: 1%;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.btn-section button{
+    width: 330px;
+    height: 330px;
+    margin-top: 1%;
+    margin-bottom: 10%;
+   background-color: white;
+   
+}
+.btn-section button:hover{
+    background-color: black;
+    color: white;
+}
+.btn-container p{
+    color:  darkgray;
+    font-weight: bold;
+}
+.take-section{
+    background-color: #F3F4F5;
+    padding-top: 7%;
+}
+.btn-container h4{
+    color: gray;
+    font-weight: bold;
+}
+.btn-container i {
+    font-size: 50px;
+}
+.mobile-section{
+    background-color: black;
+    display: flex;
+}
+.mobile-section .text{
+    margin-left: 40px;
+    padding-right: 10%;
+    padding-top: 15%;
+    
+}
+
+.mobile-section .text h2 {
+    color: white;
+    margin-left: 2%;
+}
+.mobile-section .text .btn{
+    display: flex;
+}
+.mobile-section .text .btn button{
+    display: flex;
+    width: 200px;
+    border-style: none;
+    margin-right: 2%;
+    border-radius: 5px;
+}
+
+
+.text .btn button i{
+    font-size: 35px;
+}
+#gplay{
+    background-color: #F3F4F5;
+}
+
+#appl {
+    background-color: #D5343A;
+}
+#appl .info{
+    color: white;
+}
+#appl .info h6, #gplay h6{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+
+#gplay i, #gplay h6 {
+    color: rgb(32, 31, 31);
+}
+#gplay p {
+    color: darkgray;
+}
+.mobile-section .image{
+    padding-top: 7%;
+    padding-left: 23%;
+    padding-bottom: 7%;
+}
+
+.take-section{
+    background-color: #F3F4F5;
+    padding-left: 4%;
+}
+.take-section .text{
+padding-bottom: 7%;
+}
+.take-section .text h3{
+    font-weight: bold;
+}
+
+.collumn-container{
+    display: flex;
+justify-content: space-between;
+margin-right: 5%;
+}
+
+.column-1 i, .column-2 i, .column-3 i{
+    font-size: 50px;
+} 
+.collumn-container .column-1 h4, .column-2 h4, .column-3 h4 {
+    font-weight: bold;  
+    padding-top: 15px;
+}
+
+.column-1 p, .column-2 p, .column-3 p{
+    font-size: 18px;
+    padding-top: 25px;
+    padding-bottom: 55px;
+}
+
+.last-section{
+    background-color: #19191b;
+    display: flex;
+    padding: 7% 7%;
+    justify-content: space-between;
+}
+.last-section h5{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: white;
+}
+ .collumn-a h6{
+    color: white;
+    padding-bottom: 8px;
+}
+ .collumn-b h6{
+    color: white;
+    padding-bottom: 8px;
+}
+.collumn-c .icon i{
+    color: white;
+    font-size: 25px;
+    padding-right: 15px;
+}
